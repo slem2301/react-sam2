@@ -1,0 +1,170 @@
+a{
+  text-decoration: none;
+}
+.app-wrapper {
+  display: grid;
+  grid-template-areas:
+          "h"
+          "pc";
+  grid-gap: 30px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  grid-area: h;
+  background: #231F20;
+}
+
+.content img {
+  width: 100%;
+}
+.left-sidebar {
+  grid-column: 1;
+}
+
+.content {
+  grid-column: 2;
+}
+.header .container {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  width: 1200px;
+  margin: 0 auto;
+}
+.page-content{
+  grid-area: pc;
+}
+.page-content .container {
+  display: grid;
+  grid-template-columns: 22% 63% 15%;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+img.profile-photo-sm {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.right-sidebar {
+  grid-column: 3;
+}
+.pull-left {
+  float: left;
+}
+.follow-user div {
+  margin-left: 50px;
+  position: relative;
+}
+.follow-user h5 a{
+  color: #27aae1;
+}
+.follow-user h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.follow-user a.text-green{
+  color: #8dc63f;
+  font-size: 13px;
+}
+.follow-user div::after {
+  content: "";
+  background: none;
+  border-top: 1px solid #f1f2f2;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+}
+.follow-user {
+  margin-bottom: 20px;
+}
+.nav a {
+  color: #fff;
+}
+
+.nav div {
+  margin-left: 30px;
+}
+.profile-card {
+  background: linear-gradient(to bottom, rgba(39,170,225,.8), rgba(28,117,188,.8)), url(https://themified.com/friend-finder/images/covers/1.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 90px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #fff;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+.profile-card img.profile-photo {
+  border: 7px solid #fff;
+  float: left;
+  margin-right: 20px;
+  position: relative;
+  top: -30px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.profile-card h5 {
+  color: #27aae1;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.profile-card a {
+  font-size: 12px;
+  color: #fff;
+}
+.page-content .container > div {
+  padding: 0 10px;
+}
+.nav-news-feed {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 0 40px 0;
+}
+.nav-news-feed > div {
+  list-style: none;
+  display: block;
+  padding: 15px 0;
+  position: relative;
+}
+.nav-news-feed a {
+  color: #6d6e71;
+  font-size: 14px;
+}
+.nav-news-feed div::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #f1f2f2;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+div#sticky-sidebar h4 {
+  margin-top: 0;
+}
+div#sticky-sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  align-self: start;
+}
+.content img {
+  width: 100%;
+  object-fit: cover;
+  height: 150px;
+  border-radius: 5px;
+}
