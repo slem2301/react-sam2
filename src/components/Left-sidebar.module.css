@@ -1,23 +1,23 @@
-.left-sidebar {
+.left_sidebar {
     grid-column: 1;
 }
 
-.nav-news-feed {
+.nav_news_feed {
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 0 40px 0;
 }
-.nav-news-feed > div {
+.nav_news_feed > div {
     list-style: none;
     display: block;
     padding: 15px 0;
     position: relative;
 }
-.nav-news-feed a {
+.nav_news_feed a {
     color: #6d6e71;
     font-size: 14px;
 }
-.nav-news-feed div::after {
+.nav_news_feed div::after {
     content: "";
     width: 100%;
     height: 1px;

@@ -1,9 +1,9 @@
 import React from "react";
-import "./Navbar-header.css"
+import classes from "./Navbar-header.module.css"
 
 const NavbarHeader = () => {
     return(
-        <nav className={'nav'}>
+        <nav className={classes.nav}>
             <div>
                 <a href={'#'}>Home</a>
             </div>

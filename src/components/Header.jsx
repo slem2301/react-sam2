@@ -1,12 +1,12 @@
 import React from 'react';
 import NavbarHeader from "./Navbar-header";
-import "./Header.css"
+import classes from "./Header.module.css"
 
 const Header = () => {
     return(
-        <header className={'header'}>
-            <div className={'container'}>
-                <a href="/" className={'navbar-brand'}>
+        <header className={classes.header}>
+            <div className={classes.container}>
+                <a href="/" className={classes.navbar_brand}>
                     <img src="https://themified.com/friend-finder/images/logo.png" alt=""/>
                 </a>
             <NavbarHeader />

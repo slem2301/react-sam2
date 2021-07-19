@@ -2,12 +2,12 @@ import React from 'react';
 import LeftSidebar from "./Left-sidebar";
 import Profile from "./Profile";
 import RightSidebar from "./Right-sidebar";
-import "./Page-content.css";
+import classes from "./Page-content.module.css";
 
 const PageContent = () => {
     return(
-        <div className={'page-content'}>
-            <div className={'container'}>
+        <div className={classes.page_content}>
+            <div className={classes.container}>
                 <LeftSidebar/>
                 <Profile/>
                 <RightSidebar/>

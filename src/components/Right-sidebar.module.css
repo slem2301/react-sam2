@@ -1,34 +1,31 @@
-.right-sidebar {
+.right_sidebar {
     grid-column: 3;
 }
-div#sticky-sidebar h4 {
+.right_sidebar h4 {
     margin-top: 0;
 }
-div#sticky-sidebar {
+.right_sidebar {
     position: sticky;
     top: 0;
     left: 0;
     align-self: start;
 }
-.pull-left {
+.pull_left {
     float: left;
 }
-.follow-user div {
+.follow_user div {
     margin-left: 50px;
     position: relative;
 }
-.follow-user h5 a{
+.follow_user h5 a{
     color: #27aae1;
 }
-.follow-user h5 {
+.follow_user h5 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.follow-user a.text-green{
-    color: #8dc63f;
-    font-size: 13px;
-}
-.follow-user div::after {
+
+.follow_user div::after {
     content: "";
     background: none;
     border-top: 1px solid #f1f2f2;
@@ -37,10 +34,10 @@ div#sticky-sidebar {
     left: 0;
     bottom: -10px;
 }
-.follow-user {
+.follow_user {
     margin-bottom: 20px;
 }
-.profile-photo-sm {
+.profile_photo_sm {
     height: 40px;
     width: 40px;
     border-radius: 50%;

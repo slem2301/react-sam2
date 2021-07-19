@@ -1,12 +1,12 @@
 import React from "react";
 import Avatar from "./Avatar";
-import "./Left-sidebar.css"
+import classes from "./Left-sidebar.module.css"
 
 const LeftSidebar = () => {
     return (
-        <div className={'left-sidebar'}>
+        <div className={classes.left_sidebar}>
             <Avatar/>
-            <div className={'nav-news-feed'}>
+            <div className={classes.nav_news_feed}>
                 <div>
                     <a href={'#'}>My Newsfeed</a>
                 </div>
