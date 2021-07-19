@@ -1,5 +1,5 @@
 import React from "react";
-import classes from  "./Right-sidebar.module.css"
+import classes from "./Right-sidebar.module.css"
 
 const RightSidebar = () => {
     return (

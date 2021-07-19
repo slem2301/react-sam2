@@ -1,7 +1,7 @@
 import React from 'react';
-import LeftSidebar from "./Left-sidebar";
-import Profile from "./Profile";
-import RightSidebar from "./Right-sidebar";
+import LeftSidebar from "../LeftSidebar/Left-sidebar";
+import Profile from "../Profile/Profile";
+import RightSidebar from "../Right sidebar/Right-sidebar";
 import classes from "./Page-content.module.css";
 
 const PageContent = () => {
