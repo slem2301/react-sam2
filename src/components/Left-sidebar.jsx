@@ -1,5 +1,6 @@
 import React from "react";
 import Avatar from "./Avatar";
+import "./Left-sidebar.css"
 
 const LeftSidebar = () => {
     return (

@@ -1,0 +1,10 @@
+.page-content{
+    grid-area: pc;
+}
+.page-content .container {
+    display: grid;
+    grid-template-columns: 22% 63% 15%;
+}
+.page-content .container > div {
+    padding: 0 10px;
+}

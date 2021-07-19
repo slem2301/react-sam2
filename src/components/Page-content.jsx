@@ -2,6 +2,7 @@ import React from 'react';
 import LeftSidebar from "./Left-sidebar";
 import Profile from "./Profile";
 import RightSidebar from "./Right-sidebar";
+import "./Page-content.css";
 
 const PageContent = () => {
     return(

@@ -1,0 +1,47 @@
+.right-sidebar {
+    grid-column: 3;
+}
+div#sticky-sidebar h4 {
+    margin-top: 0;
+}
+div#sticky-sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    align-self: start;
+}
+.pull-left {
+    float: left;
+}
+.follow-user div {
+    margin-left: 50px;
+    position: relative;
+}
+.follow-user h5 a{
+    color: #27aae1;
+}
+.follow-user h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.follow-user a.text-green{
+    color: #8dc63f;
+    font-size: 13px;
+}
+.follow-user div::after {
+    content: "";
+    background: none;
+    border-top: 1px solid #f1f2f2;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+}
+.follow-user {
+    margin-bottom: 20px;
+}
+.profile-photo-sm {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}

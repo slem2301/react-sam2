@@ -1,0 +1,28 @@
+.left-sidebar {
+    grid-column: 1;
+}
+
+.nav-news-feed {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 0 40px 0;
+}
+.nav-news-feed > div {
+    list-style: none;
+    display: block;
+    padding: 15px 0;
+    position: relative;
+}
+.nav-news-feed a {
+    color: #6d6e71;
+    font-size: 14px;
+}
+.nav-news-feed div::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #f1f2f2;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}

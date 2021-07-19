@@ -1,0 +1,11 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav a {
+    color: #fff;
+}
+.nav div {
+    margin-left: 30px;
+}
