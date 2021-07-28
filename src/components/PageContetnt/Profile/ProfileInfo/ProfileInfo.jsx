@@ -1,18 +1,16 @@
 import React from "react";
-import classes from "./Profile.module.css"
-import MyPosts from "./MyPosts/MyPosts";
+import classes from "./ProfileInfo.module.css"
 
-const Profile = () => {
+const ProfileInfo = () => {
     return(
-        <div className={classes.content}>
-            <div>
+        <div>
+            <div className={classes.topImgProfile}>
                 <img src="https://img.wallpapersafari.com/desktop/1440/900/65/34/Pnc1Je.jpg" alt=""/>
             </div>
             <div>
                 ava+description
-                <MyPosts />
             </div>
         </div>
     )
 }
-export default Profile;
+export default ProfileInfo;
