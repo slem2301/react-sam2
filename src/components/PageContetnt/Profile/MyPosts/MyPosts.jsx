@@ -6,12 +6,20 @@ const MyPosts = (props) => {
 
     let postElements = props.posts.map( p =>  <Post message = {p.message} likes={p.likes}/> );
 
+    let newPostElement = React.createRef();
+
+    let addPost = () => {
+        debugger;
+        let text = newPostElement.current.value;
+        props.addPost(text);
+    }
+
     return (
         <div>
             My posts
             <div>
-                <textarea name=""></textarea>
-                <button>Add post</button>
+                <textarea ref={newPostElement}></textarea>
+                <button onClick={addPost}>Add post</button>
             </div>
             <div className={classes.posts}>
                 { postElements }

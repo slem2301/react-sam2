@@ -7,10 +7,10 @@ import PageContent from "./components/PageContetnt/Page-content";
 const App = (props) => {
 
     return (
-        <div className={'app-wrapper'}>
-            <Header/>
-            <PageContent posts={props.posts} dialogs={props.dialogs} messages={props.messages}/>
-        </div>
+            <div className={'app-wrapper'}>
+                <Header/>
+                <PageContent state={props.state} addPost={props.addPost}/>
+            </div>
     );
 }
 
