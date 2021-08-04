@@ -10,15 +10,23 @@ import News from "./News/News";
 import Settings from "./Settings/Settings";
 
 
-const PageContent = () => {
+const PageContent = (props) => {
+
+
     return (
         <BrowserRouter>
             <div className={classes.page_content}>
                 <div className={classes.container}>
                     <LeftSidebar/>
                     <div className={classes.content}>
-                        <Route path='/profile' component={Profile}/>
-                        <Route path='/dialogs' component={Dialogs}/>
+                        {/*<Route path='/profile' component={Profile}/>*/}
+                        {/*<Route path='/dialogs' component={Dialogs}/>*/}
+                        {/*<Route path='/news' component={News}/>*/}
+                        {/*<Route path='/music' component={Music}/>*/}
+                        {/*<Route path='/settings' component={Settings}/>*/}
+
+                        <Route path='/profile' render={ () => <Profile posts={props.posts}/> }/>
+                        <Route path='/dialogs' render={ () => <Dialogs dialogs={props.dialogs} messages={props.messages}/> }/>
                         <Route path='/news' component={News}/>
                         <Route path='/music' component={Music}/>
                         <Route path='/settings' component={Settings}/>
