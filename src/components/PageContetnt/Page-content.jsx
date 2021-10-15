@@ -8,10 +8,10 @@ import {  Route } from "react-router-dom";
 import Music from "./Music/Music";
 import News from "./News/News";
 import Settings from "./Settings/Settings";
+import DialogsContainer from "./Dialogs/Message/DialogsContainer";
 
 
 const PageContent = (props) => {
-
     return (
             <div className={classes.page_content}>
                 <div className={classes.container}>
@@ -23,8 +23,8 @@ const PageContent = (props) => {
                         {/*<Route path='/music' component={Music}/>*/}
                         {/*<Route path='/settings' component={Settings}/>*/}
 
-                        <Route path='/profile' render={ () => <Profile state={props.state.profilePage} addPost={props.addPost}/> }/>
-                        <Route path='/dialogs' render={ () => <Dialogs state={props.state.dialogsPage}/> }/>
+                        <Route path='/profile' render={ () => <Profile/> }/>
+                        <Route path='/dialogs' render={ () => <DialogsContainer/> }/>
                         <Route path='/news' component={News}/>
                         <Route path='/music' component={Music}/>
                         <Route path='/settings' component={Settings}/>
